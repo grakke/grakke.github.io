@@ -27,7 +27,7 @@ commit = "https://github.com/luizdepra/hugo-coder/tree/"
 rtl = false
 
 math = true
-katex = true
+# katex = true
 
 enableTwemoji = true
 
@@ -214,7 +214,7 @@ url = "contact/"
   [comments.giscus]
     repo = "grakke/grakke.github.io" # Repo where the comments will live
     repo_id = "MDEwOlJlcG9zaXRvcnkzNjQ0MjcwMzc=" # Repo where the comments will live
-    category = "General" # Repo where the comments will live
+    category = "Announcements" # Repo where the comments will live
     category_id = "DIC_kwDOFbi3Hc4CAILG" # Repo where the comments will live
     mapping = "pathname" # How Utterances will match comment to page
     label = "comment" # Label applied to issue by utteranc.es bot
