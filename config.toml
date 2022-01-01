@@ -118,7 +118,7 @@ url = "https://github.com/grakke/"
 name = "Twitter"
 icon = "fa fa-2x fa-twitter"
 weight = 3
-url = "https://twitter.com/johndoe/"
+url = "https://twitter.com/bluebird_gunner/"
 
 # [[params.social]]
 # name = "Douban"
@@ -133,20 +133,21 @@ url = "https://twitter.com/johndoe/"
 # url = "https://medium.com/@johndoe"
 
 [[params.social]]
-name = "RSS"
-icon = "fa fa-2x fa-rss"
+name = "Wechat"
+icon = "fa fa-2x fa-wechat"
 weight = 6
 url = "https://myhugosite.com/index.xml"
 rel = "alternate"
 type = "application/rss+xml"
 
 [[params.social]]
-name = "Wechat"
+name = "RSS"
 icon = "fa fa-2x fa-rss"
 weight = 7
-url = "https://myhugosite.com/index.xml"
+url = "https://grakke.github.io/index.xml"
 rel = "alternate"
 type = "application/rss+xml"
+
 
 [languages.en]
 languageName = ":uk:"
@@ -201,3 +202,21 @@ url = "projects/"
 name = "Contato"
 weight = 5
 url = "contact/"
+
+[comments]
+  # Comment provider:
+  provider = "giscus"
+
+  # Which page types are commentable?
+  commentable = {page = true, post = true, docs = false, project = false, publication = true, talk = false}
+
+  # Configuration of giscus
+  [comments.giscus]
+    repo = "grakke/grakke.github.io" # Repo where the comments will live
+    repo_id = "MDEwOlJlcG9zaXRvcnkzNjQ0MjcwMzc=" # Repo where the comments will live
+    category = "General" # Repo where the comments will live
+    category_id = "DIC_kwDOFbi3Hc4CAILG" # Repo where the comments will live
+    mapping = "pathname" # How Utterances will match comment to page
+    label = "comment" # Label applied to issue by utteranc.es bot
+    theme = "light" # What theme to use
+    reactions_enabled = 0
