@@ -90,10 +90,10 @@ stylesrc = [
   "https://fonts.googleapis.com/",
   "https://cdn.jsdelivr.net/",
 ]
-scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com","https://giscus.app/",]
+scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com","https://giscus.app"]
 prefetchsrc = ["'self'"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-connectsrc = ["'self'", "https://www.google-analytics.com","https://giscus.app/",]
+connectsrc = ["'self'", "https://www.google-analytics.com","https://giscus.app"]
 
 [taxonomies]
 category = "categories"
