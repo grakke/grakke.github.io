@@ -173,33 +173,33 @@ name = "Contact me"
 weight = 5
 url = "contact/"
 
-[languages.pt-br]
-languageName = ":brazil:"
-title = "João Ninguém"
+[languages.pt-cn]
+languageName = ":cn:"
+title = "Grakke"
 
-[languages.pt-br.params]
-author = "João Ninguém"
-info = "Full Stack DevOps e Mágico"
+[languages.pt-cn.params]
+author = "GRAKKE'S BLOG"
+info = "Full Stack DevOps, Soccer Arsenal Fan"
 description = "Sítio pessoal de João Ninguém"
 keywords = "blog,desenvolvedor,pessoal"
 
-[[languages.pt-br.menu.main]]
-name = "Sobre"
+[[languages.pt-cn.menu.main]]
+name = "关于"
 weight = 1
 url = "about/"
 
-[[languages.pt-br.menu.main]]
-name = "Blog"
+[[languages.pt-cn.menu.main]]
+name = "博客"
 weight = 2
 url = "posts/"
 
-[[languages.pt-br.menu.main]]
-name = "Projetos"
+[[languages.pt-cn.menu.main]]
+name = "项目"
 weight = 3
 url = "projects/"
 
-[[languages.pt-br.menu.main]]
-name = "Contato"
+[[languages.pt-cn.menu.main]]
+name = "联系"
 weight = 5
 url = "contact/"
 
