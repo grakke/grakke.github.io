@@ -206,7 +206,7 @@ url = "contact/"
 [params.giscus]
     repo = "grakke/grakke.github.io" # Repo where the comments will live
     repo_id = "MDEwOlJlcG9zaXRvcnkzNjQ0MjcwMzc=" # Repo where the comments will live
-    category = "Comments" # Repo where the comments will live
+    category = "General" # Repo where the comments will live
     category_id = "DIC_kwDOFbi3Hc4CAILG" # Repo where the comments will live
     mapping = "pathname" # How Utterances will match comment to page
     label = "comment" # Label applied to issue by utteranc.es bot
