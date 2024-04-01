@@ -190,7 +190,7 @@ title = "Grakke"
 author = "GRAKKE'S BLOG"
 info = ["Full Stack DevOps", "Soccer Arsenal Fan"]
 description = "Sítio pessoal de João Ninguém"
-keywords = "blog,desenvolvedor,pessoal"
+keywords = "blog, desenvolvedor, pessoal"
 
 [[languages.pt-cn.menu.main]]
 name = "关于"
