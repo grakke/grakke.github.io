@@ -11,6 +11,12 @@ pygmentsCodeFencesGuessSyntax = true
 
 # Enable Disqus comments
 # disqusShortname = "yourdiscussshortname"
+[services]
+  [services.disqus]
+    shortname = "blog-hehcvyfk3w"
+	disqus_identifier = "blog"
+    disqus_title = "blog"
+    # disqus_url =
 
 [params]
 author = "Henry Lee"
@@ -219,7 +225,7 @@ category = "General"                         # Repo where the comments will live
 category_id = "DIC_kwDOFbi3Hc4CAILG"         # Repo where the comments will live
 mapping = "pathname"                         # How Utterances will match comment to page
 label = "comment"                            # Label applied to issue by utteranc.es bot
-theme = "light"                              # What theme to use
+theme = "auto"                            # What theme to use
 reactions_enabled = "1"
 emit_metadata = "0"
 lang = "en"
