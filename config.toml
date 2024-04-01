@@ -85,15 +85,24 @@ framesrc = ["'self'"]
 imgsrc = ["'self'"]
 objectsrc = ["'none'"]
 stylesrc = [
-  "'self'",
-  "'unsafe-inline'",
-  "https://fonts.googleapis.com/",
-  "https://cdn.jsdelivr.net/",
+	"'self'",
+	"'unsafe-inline'",
+	"https://fonts.googleapis.com/",
+	"https://cdn.jsdelivr.net/",
 ]
-scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com","https://giscus.app"]
+scriptsrc = [
+	"'self'",
+	"'unsafe-inline'",
+	"https://www.google-analytics.com",
+	"https://giscus.app",
+]
 prefetchsrc = ["'self'"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-connectsrc = ["'self'", "https://www.google-analytics.com","https://giscus.app"]
+connectsrc = [
+	"'self'",
+	"https://www.google-analytics.com",
+	"https://giscus.app",
+]
 
 [taxonomies]
 category = "categories"
@@ -204,13 +213,13 @@ weight = 5
 url = "contact/"
 
 [params.giscus]
-    repo = "grakke/grakke.github.io" # Repo where the comments will live
-    repo_id = "MDEwOlJlcG9zaXRvcnkzNjQ0MjcwMzc=" # Repo where the comments will live
-    category = "General" # Repo where the comments will live
-    category_id = "DIC_kwDOFbi3Hc4CAILG" # Repo where the comments will live
-    mapping = "pathname" # How Utterances will match comment to page
-    label = "comment" # Label applied to issue by utteranc.es bot
-    theme = "light" # What theme to use
-    reactions_enabled = "1"
-    emit_metadata = "0"
-    lang = "en"
+repo = "grakke/grakke.github.io"             # Repo where the comments will live
+repo_id = "MDEwOlJlcG9zaXRvcnkzNjQ0MjcwMzc=" # Repo where the comments will live
+category = "General"                         # Repo where the comments will live
+category_id = "DIC_kwDOFbi3Hc4CAILG"         # Repo where the comments will live
+mapping = "pathname"                         # How Utterances will match comment to page
+label = "comment"                            # Label applied to issue by utteranc.es bot
+theme = "light"                              # What theme to use
+reactions_enabled = "1"
+emit_metadata = "0"
+lang = "en"

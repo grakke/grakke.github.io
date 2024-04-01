@@ -1,32 +1,32 @@
-name: Generate Site
+name: Deploy Hugo site to Pages
 on:
-  push:
-    branches:
-      - master
+    push:
+        branches:
+            - master
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-20.04
-    steps:
-      - name: Check out source
-        uses: actions/checkout@v2
+    build-deploy:
+        runs-on: ubuntu-20.04
+        steps:
+            - name: Check out source
+              uses: actions/checkout@v2
 
-      - name: Setup hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: "latest" # 修改为使用的 Hugo 版本
-          extended: true # 设置是否需要 extended 版本
+            - name: Setup hugo
+              uses: peaceiris/actions-hugo@v2
+              with:
+                  hugo-version: 'latest' # 修改为使用的 Hugo 版本
+                  extended: true # 设置是否需要 extended 版本
 
-      - name: Build
-        run: hugo --minify
+            - name: Build
+              run: hugo --minify
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          deploy_key: ${{ secrets.DEPLOY_TOKEN }} # 另外还支持 github_token 和 personal_token
-          external_repository: grakke/grakke.github.io # 修改为你的 GitHub Pages 仓库
-          publish_dir: ./public
-          keep_files: false
-          publish_branch: main
-          # 如果使用自定义域名，还需要添加下面一行配置
-          # cname: www.fournoas.com
+            - name: Deploy
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  deploy_key: ${{ secrets.DEPLOY_TOKEN }} # 另外还支持 github_token 和 personal_token
+                  external_repository: grakke/grakke.github.io # 修改为你的 GitHub Pages 仓库
+                  publish_dir: ./public
+                  keep_files: false
+                  publish_branch: main
+                  # 使用自定义域名，需要添加
+                  # cname: www.fournoas.com
