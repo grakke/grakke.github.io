@@ -95,7 +95,7 @@ stylesrc = [
 	"'unsafe-inline'",
 	"https://fonts.googleapis.com/",
 	"https://cdn.jsdelivr.net/",
-	"https://giscus.app",
+	"https://giscus.app/",
 	"https://blog-hehcvyfk3w.disqus.com/",
 	"https://disqus.com/",
 ]
@@ -103,10 +103,11 @@ scriptsrc = [
 	"'self'",
 	"'unsafe-inline'",
 	"https://www.google-analytics.com",
-	"https://giscus.app",
+	"https://giscus.app/",
+	"https://disqus.com/",
 	"https://cdn.jsdelivr.net/",
 	"https://blog-hehcvyfk3w.disqus.com/",
-	"https://disqus.com/",
+	"https://menrealitycalc.com/"
 ]
 # [params.giscus]
 # repo
@@ -126,8 +127,9 @@ prefetchsrc = ["'self'"]
 connectsrc = [
 	"'self'",
 	"https://www.google-analytics.com",
-	"https://giscus.app",
+	"https://giscus.app/",
 	"https://disqus.com/",
+	"https://blog-hehcvyfk3w.disqus.com/",
 ]
 
 [taxonomies]
