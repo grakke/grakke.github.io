@@ -11,11 +11,11 @@ pygmentsCodeFencesGuessSyntax = true
 
 # Enable Disqus comments
 # disqusShortname = "yourdiscussshortname"
-[services]
-  [services.disqus]
-    shortname = "blog-hehcvyfk3w"
-	disqus_identifier = "blog"
-    disqus_title = "blog"
+# [services]
+#   [services.disqus]
+#     shortname = "blog-hehcvyfk3w"
+# 	disqus_identifier = "blog"
+#     disqus_title = "blog"
     # disqus_url =
 
 [params]
