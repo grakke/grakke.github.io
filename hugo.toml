@@ -97,6 +97,7 @@ stylesrc = [
 	"https://cdn.jsdelivr.net/",
 	"https://giscus.app",
 	"https://blog-hehcvyfk3w.disqus.com/",
+	"https://disqus.com/",
 ]
 scriptsrc = [
 	"'self'",
@@ -105,6 +106,7 @@ scriptsrc = [
 	"https://giscus.app",
 	"https://cdn.jsdelivr.net/",
 	"https://blog-hehcvyfk3w.disqus.com/",
+	"https://disqus.com/",
 ]
 # [params.giscus]
 # repo
@@ -125,6 +127,7 @@ connectsrc = [
 	"'self'",
 	"https://www.google-analytics.com",
 	"https://giscus.app",
+	"https://disqus.com/",
 ]
 
 [taxonomies]
