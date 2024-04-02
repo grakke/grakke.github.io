@@ -11,11 +11,11 @@ pygmentsCodeFencesGuessSyntax = true
 
 # Enable Disqus comments
 # disqusShortname = "yourdiscussshortname"
-[services]
-[services.disqus]
-shortname = "blog-hehcvyfk3w"
-disqus_identifier = "blog"
-disqus_title = "blog"
+# [services]
+# [services.disqus]
+# shortname = "blog-hehcvyfk3w"
+# disqus_identifier = "blog"
+# disqus_title = "blog"
 # disqus_url =
 
 [params]
@@ -98,7 +98,7 @@ stylesrc = [
 	"https://giscus.app/",
 	"https://blog-hehcvyfk3w.disqus.com/",
 	"https://disqus.com/",
-	"https://menrealitycalc.com/"
+	"https://menrealitycalc.com/",
 ]
 scriptsrc = [
 	"'self'",
@@ -108,20 +108,19 @@ scriptsrc = [
 	"https://disqus.com/",
 	"https://cdn.jsdelivr.net/",
 	"https://blog-hehcvyfk3w.disqus.com/",
-	"https://menrealitycalc.com/"
+	"https://menrealitycalc.com/",
 ]
-# [params.giscus]
-# repo
-# repoID
-# category
-# categoryID
-# mapping
-# term
-# strict
-# reactionsEnabled
-# inputPosition
-# lang
-# loading
+[params.giscus]
+repo = "grakke/grakke.github.io"
+repoID ="MDEwOlJlcG9zaXRvcnkzNjQ0MjcwMzc="
+category ="Q&A"
+categoryID="DIC_kwDOFbi3Hc4CAILH"
+strict="0"
+reactionsEnabled="1"
+inputPosition="bottom"
+lang="zh-CN"
+mapping="pathname"
+theme="preferred_color_scheme"
 
 prefetchsrc = ["'self'"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
@@ -130,10 +129,10 @@ connectsrc = [
 	"https://www.google-analytics.com",
 	"https://giscus.app/",
 	"https://disqus.com/",
-		"https://giscus.app",
+	"https://giscus.app",
 	"https://disqus.com",
 	"https://blog-hehcvyfk3w.disqus.com/",
-	"https://menrealitycalc.com/"
+	"https://menrealitycalc.com/",
 ]
 
 [taxonomies]
