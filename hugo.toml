@@ -88,7 +88,7 @@ childsrc = ["'self'"]
 fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
 formaction = ["'self'"]
 framesrc = ["'self'"]
-imgsrc = ["'self'", "https://referrer.disqus.com/"]
+imgsrc = ["'self'", "https://referrer.disqus.com/", "https://c.disquscdn.com/"]
 objectsrc = ["'none'"]
 stylesrc = [
 	"'self'",
