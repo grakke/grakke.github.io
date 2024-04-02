@@ -98,6 +98,7 @@ stylesrc = [
 	"https://giscus.app/",
 	"https://blog-hehcvyfk3w.disqus.com/",
 	"https://disqus.com/",
+	"https://menrealitycalc.com/"
 ]
 scriptsrc = [
 	"'self'",
@@ -129,7 +130,10 @@ connectsrc = [
 	"https://www.google-analytics.com",
 	"https://giscus.app/",
 	"https://disqus.com/",
+		"https://giscus.app",
+	"https://disqus.com",
 	"https://blog-hehcvyfk3w.disqus.com/",
+	"https://menrealitycalc.com/"
 ]
 
 [taxonomies]
