@@ -11,11 +11,11 @@ pygmentsCodeFencesGuessSyntax = true
 
 # Enable Disqus comments
 # disqusShortname = "yourdiscussshortname"
-# [services]
-#   [services.disqus]
-#     shortname = "blog-hehcvyfk3w"
-# 	disqus_identifier = "blog"
-#     disqus_title = "blog"
+[services]
+  [services.disqus]
+    shortname = "blog-hehcvyfk3w"
+	disqus_identifier = "blog"
+    disqus_title = "blog"
     # disqus_url =
 
 [params]
@@ -95,13 +95,28 @@ stylesrc = [
 	"'unsafe-inline'",
 	"https://fonts.googleapis.com/",
 	"https://cdn.jsdelivr.net/",
+	"https://giscus.app",
 ]
 scriptsrc = [
 	"'self'",
 	"'unsafe-inline'",
 	"https://www.google-analytics.com",
 	"https://giscus.app",
+	"https://cdn.jsdelivr.net/"
 ]
+# [params.giscus]
+# repo
+# repoID
+# category
+# categoryID
+# mapping
+# term
+# strict
+# reactionsEnabled
+# inputPosition
+# lang
+# loading
+
 prefetchsrc = ["'self'"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
 connectsrc = [
