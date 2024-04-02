@@ -1,7 +1,8 @@
-baseURL = 'https://grakke.github.io/'
-languageCode = 'en-us'
+baseURL = 'https://grakke.github.io'
 title = "Grakke's Blog"
 theme = "hugo-coder"
+languageCode = "en"
+enableEmoji = true
 
 defaultContentLanguage = "en"
 paginate = 20
@@ -42,7 +43,7 @@ enableTwemoji = true
 # "auto" (use preference set by browser)
 # "dark" (dark background, light foreground)
 # "light" (light background, dark foreground) (default)
-colorScheme = "dark"
+colorScheme = "auto"
 
 # Hide the toggle button, along with the associated vertical divider
 hideColorSchemeToggle = false
@@ -84,7 +85,13 @@ customJS = []
 
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
-childsrc = ["'self'"]
+childsrc = ["'self'",
+	"https://www.google-analytics.com",
+	"https://giscus.app/",
+	"https://disqus.com/",
+	"https://blog-hehcvyfk3w.disqus.com/",
+	"https://menrealitycalc.com/",
+	]
 fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
 formaction = ["'self'"]
 framesrc = ["'self'"]
@@ -234,9 +241,7 @@ url = "contact/"
 
 [params.giscus]
 repo = "grakke/grakke.github.io"             # Repo where the comments will live
-repo_id = "MDEwOlJlcG9zaXRvcnkzNjQ0MjcwMzc=" # Repo where the comments will live
 category = "General"                         # "Q&A" Repo where the comments will live
-category_id = "DIC_kwDOFbi3Hc4CAILG"         # Repo where the comments will live
 mapping = "pathname"                         # How Utterances will match comment to page
 label = "comment"                            # Label applied to issue by utteranc.es bot
 theme = "auto"                               # "preferred_color_scheme" What theme to use
