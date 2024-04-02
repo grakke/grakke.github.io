@@ -110,17 +110,6 @@ scriptsrc = [
 	"https://blog-hehcvyfk3w.disqus.com/",
 	"https://menrealitycalc.com/",
 ]
-[params.giscus]
-repo = "grakke/grakke.github.io"
-repoID ="MDEwOlJlcG9zaXRvcnkzNjQ0MjcwMzc="
-category ="Q&A"
-categoryID="DIC_kwDOFbi3Hc4CAILH"
-strict="0"
-reactionsEnabled="1"
-inputPosition="bottom"
-lang="zh-CN"
-mapping="pathname"
-theme="preferred_color_scheme"
 
 prefetchsrc = ["'self'"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
@@ -246,11 +235,16 @@ url = "contact/"
 [params.giscus]
 repo = "grakke/grakke.github.io"             # Repo where the comments will live
 repo_id = "MDEwOlJlcG9zaXRvcnkzNjQ0MjcwMzc=" # Repo where the comments will live
-category = "General"                         # Repo where the comments will live
+category = "General"                         # "Q&A" Repo where the comments will live
 category_id = "DIC_kwDOFbi3Hc4CAILG"         # Repo where the comments will live
 mapping = "pathname"                         # How Utterances will match comment to page
 label = "comment"                            # Label applied to issue by utteranc.es bot
-theme = "auto"                               # What theme to use
+theme = "auto"                               # "preferred_color_scheme" What theme to use
 reactions_enabled = "1"
 emit_metadata = "0"
-lang = "en"
+lang="zh-CN"
+strict="0"
+repoID ="MDEwOlJlcG9zaXRvcnkzNjQ0MjcwMzc="
+categoryID="DIC_kwDOFbi3Hc4CAILH"
+reactionsEnabled="1"
+inputPosition="bottom"
