@@ -12,11 +12,11 @@ pygmentsCodeFencesGuessSyntax = true
 # Enable Disqus comments
 # disqusShortname = "yourdiscussshortname"
 [services]
-  [services.disqus]
-    shortname = "blog-hehcvyfk3w"
-	disqus_identifier = "blog"
-    disqus_title = "blog"
-    # disqus_url =
+[services.disqus]
+shortname = "blog-hehcvyfk3w"
+disqus_identifier = "blog"
+disqus_title = "blog"
+# disqus_url =
 
 [params]
 author = "Henry Lee"
@@ -88,7 +88,7 @@ childsrc = ["'self'"]
 fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
 formaction = ["'self'"]
 framesrc = ["'self'"]
-imgsrc = ["'self'"]
+imgsrc = ["'self'", "https://referrer.disqus.com/"]
 objectsrc = ["'none'"]
 stylesrc = [
 	"'self'",
@@ -103,7 +103,7 @@ scriptsrc = [
 	"https://www.google-analytics.com",
 	"https://giscus.app",
 	"https://cdn.jsdelivr.net/",
-	"https://blog-hehcvyfk3w.disqus.com/"
+	"https://blog-hehcvyfk3w.disqus.com/",
 ]
 # [params.giscus]
 # repo
@@ -241,7 +241,7 @@ category = "General"                         # Repo where the comments will live
 category_id = "DIC_kwDOFbi3Hc4CAILG"         # Repo where the comments will live
 mapping = "pathname"                         # How Utterances will match comment to page
 label = "comment"                            # Label applied to issue by utteranc.es bot
-theme = "auto"                            # What theme to use
+theme = "auto"                               # What theme to use
 reactions_enabled = "1"
 emit_metadata = "0"
 lang = "en"
