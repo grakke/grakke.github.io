@@ -87,10 +87,10 @@ customJS = []
 [params.csp]
 childsrc = ["'self'",
 	"https://www.google-analytics.com",
-	"https://giscus.app/",
-	"https://disqus.com/",
-	"https://blog-hehcvyfk3w.disqus.com/",
-	"https://menrealitycalc.com/",
+	# "https://giscus.app/",
+	# "https://disqus.com/",
+	# "https://blog-hehcvyfk3w.disqus.com/",
+	# "https://menrealitycalc.com/",
 	]
 fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
 formaction = ["'self'"]
@@ -102,20 +102,20 @@ stylesrc = [
 	"'unsafe-inline'",
 	"https://fonts.googleapis.com/",
 	"https://cdn.jsdelivr.net/",
-	"https://giscus.app/",
-	"https://blog-hehcvyfk3w.disqus.com/",
-	"https://disqus.com/",
-	"https://menrealitycalc.com/",
+	# "https://giscus.app/",
+	# "https://blog-hehcvyfk3w.disqus.com/",
+	# "https://disqus.com/",
+	# "https://menrealitycalc.com/",
 ]
 scriptsrc = [
 	"'self'",
 	"'unsafe-inline'",
 	"https://www.google-analytics.com",
-	"https://giscus.app/",
-	"https://disqus.com/",
-	"https://cdn.jsdelivr.net/",
-	"https://blog-hehcvyfk3w.disqus.com/",
-	"https://menrealitycalc.com/",
+	# "https://giscus.app/",
+	# "https://disqus.com/",
+	# "https://cdn.jsdelivr.net/",
+	# "https://blog-hehcvyfk3w.disqus.com/",
+	# "https://menrealitycalc.com/",
 ]
 
 prefetchsrc = ["'self'"]
@@ -123,12 +123,10 @@ prefetchsrc = ["'self'"]
 connectsrc = [
 	"'self'",
 	"https://www.google-analytics.com",
-	"https://giscus.app/",
-	"https://disqus.com/",
-	"https://giscus.app",
-	"https://disqus.com",
-	"https://blog-hehcvyfk3w.disqus.com/",
-	"https://menrealitycalc.com/",
+	# "https://giscus.app",
+	# "https://disqus.com",
+	# "https://blog-hehcvyfk3w.disqus.com/",
+	# "https://menrealitycalc.com/",
 ]
 
 [taxonomies]
@@ -239,18 +237,18 @@ name = "联系"
 weight = 5
 url = "contact/"
 
-[params.giscus]
-repo = "grakke/grakke.github.io"             # Repo where the comments will live
-category = "General"                         # "Q&A" Repo where the comments will live
-mapping = "pathname"                         # How Utterances will match comment to page
-label = "comment"                            # Label applied to issue by utteranc.es bot
-theme = "auto"                               # "preferred_color_scheme" What theme to use
-reactions_enabled = "1"
-emit_metadata = "0"
-lang="zh-CN"
-strict="0"
-repoID ="MDEwOlJlcG9zaXRvcnkzNjQ0MjcwMzc="
-categoryID="DIC_kwDOFbi3Hc4CAILH"
-reactionsEnabled="1"
-inputPosition="top"
-loading="lazy"
+# [params.giscus]
+# repo = "grakke/grakke.github.io"             # Repo where the comments will live
+# category = "General"                         # "Q&A" Repo where the comments will live
+# mapping = "pathname"                         # How Utterances will match comment to page
+# label = "comment"                            # Label applied to issue by utteranc.es bot
+# theme = "auto"                               # "preferred_color_scheme" What theme to use
+# reactions_enabled = "1"
+# emit_metadata = "0"
+# lang="zh-CN"
+# strict="0"
+# repoID ="MDEwOlJlcG9zaXRvcnkzNjQ0MjcwMzc="
+# categoryID="DIC_kwDOFbi3Hc4CAILH"
+# reactionsEnabled="1"
+# inputPosition="top"
+# loading="lazy"
