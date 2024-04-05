@@ -95,8 +95,8 @@ childsrc = [
 ]
 fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
 formaction = ["'self'"]
-framesrc = ["'self'"]
-imgsrc = ["'self'", "https://referrer.disqus.com/", "https://c.disquscdn.com/"]
+framesrc = ["'self'", "https://menrealitycalc.com/", "https://utteranc.es/"]
+imgsrc = ["'self'"]
 objectsrc = ["'none'"]
 stylesrc = [
 	"'self'",
@@ -120,9 +120,7 @@ scriptsrc = [
 	# "https://menrealitycalc.com/",
 ]
 
-prefetchsrc = ["'self'",
-	"https://utteranc.es/",
-	]
+prefetchsrc = ["'self'", "https://utteranc.es/"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
 connectsrc = [
 	"'self'",
