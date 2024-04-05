@@ -252,3 +252,8 @@ url = "contact/"
 # reactionsEnabled="1"
 # inputPosition="top"
 # loading="lazy"
+
+[params.utteranc]
+  repo = "grakke/grakke.github.io" ##换成自己得
+  issueTerm = "pathname"
+  theme = "github-light"
