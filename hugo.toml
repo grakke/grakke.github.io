@@ -258,7 +258,6 @@ url = "contact/"
 # loading="lazy"
 
 [params.utterances]
-enable = true
 repo = "grakke/grakke.github.io"
-issueTerm = "pathname"
-theme = "github-light"
+issueTerm = "og:title"
+theme = "preferred-color-scheme"
