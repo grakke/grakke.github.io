@@ -114,6 +114,7 @@ scriptsrc = [
 	"https://www.google-analytics.com",
 	"https://utteranc.es/",
 	"https://cdn.jsdelivr.net/",
+	"https://www.googletagmanager.com/",
 	# "https://giscus.app/",
 	# "https://disqus.com/",
 	# "https://blog-hehcvyfk3w.disqus.com/",
