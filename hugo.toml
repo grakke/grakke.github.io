@@ -112,7 +112,7 @@ scriptsrc = [
 	"'self'",
 	"'unsafe-inline'",
 	"https://www.google-analytics.com",
-	"https://utteranc.es",
+	"https://utteranc.es/",
 	"https://cdn.jsdelivr.net/",
 	# "https://giscus.app/",
 	# "https://disqus.com/",
@@ -125,6 +125,8 @@ prefetchsrc = ["'self'"]
 connectsrc = [
 	"'self'",
 	"https://www.google-analytics.com",
+	"https://utteranc.es/",
+	"https://cdn.jsdelivr.net/",
 	# "https://giscus.app",
 	# "https://disqus.com",
 	# "https://blog-hehcvyfk3w.disqus.com/",
