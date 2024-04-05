@@ -85,13 +85,14 @@ customJS = []
 
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
-childsrc = ["'self'",
+childsrc = [
+	"'self'",
 	"https://www.google-analytics.com",
 	# "https://giscus.app/",
 	# "https://disqus.com/",
 	# "https://blog-hehcvyfk3w.disqus.com/",
 	# "https://menrealitycalc.com/",
-	]
+]
 fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
 formaction = ["'self'"]
 framesrc = ["'self'"]
@@ -254,6 +255,7 @@ url = "contact/"
 # loading="lazy"
 
 [params.utteranc]
-  repo = "grakke/grakke.github.io" ##换成自己得
-  issueTerm = "pathname"
-  theme = "github-light"
+enable = true
+repo = "grakke/grakke.github.io" ##换成自己得
+issueTerm = "pathname"
+theme = "github-light"
