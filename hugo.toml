@@ -254,7 +254,7 @@ url = "contact/"
 # inputPosition="top"
 # loading="lazy"
 
-[params.utteranc]
+[params.utterances]
 enable = true
 repo = "grakke/grakke.github.io" ##换成自己得
 issueTerm = "pathname"
