@@ -261,3 +261,7 @@ url = "contact/"
 repo = "grakke/grakke.github.io"
 issueTerm = "og:title"
 theme = "preferred-color-scheme"
+
+[services]
+[services.googleAnalytics]
+ID = 'G-JBQ6B6SEEP'
