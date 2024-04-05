@@ -112,9 +112,10 @@ scriptsrc = [
 	"'self'",
 	"'unsafe-inline'",
 	"https://www.google-analytics.com",
+	"https://utteranc.es",
+	"https://cdn.jsdelivr.net/",
 	# "https://giscus.app/",
 	# "https://disqus.com/",
-	# "https://cdn.jsdelivr.net/",
 	# "https://blog-hehcvyfk3w.disqus.com/",
 	# "https://menrealitycalc.com/",
 ]
@@ -256,6 +257,6 @@ url = "contact/"
 
 [params.utterances]
 enable = true
-repo = "grakke/grakke.github.io" ##换成自己得
+repo = "grakke/grakke.github.io"
 issueTerm = "pathname"
 theme = "github-light"
